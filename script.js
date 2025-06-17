@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById("registration-form");
-    const feedback = document.getElementById('feedback');
+    const feedback = document.getElementById('form-feedback');
 
     form.addEventListener('submit', function(event) {
         event.preventDefault();
