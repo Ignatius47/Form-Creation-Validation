@@ -28,12 +28,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         feedbackDiv.style.display = 'block';
-        if (isValid) {
-            feedback.Div.textContent = 'Registration successful!';
-            feedbackDiv.style.color = '#28a745';
+
+
+         if (isValid) {
+            feedbackDiv.textContent = "Registration successful!";
+            feedbackDiv.style.color = "#28a745";
         } else {
-            feebackDiv.innerHTML = messages.join('<br>');
-            feedbackDiv.style.color = 'dc3545';
+            feedbackDiv.innerHTML = messages.join("<br>");
+            feedbackDiv.style.color = "#dc3545";
         }
     });
 });
